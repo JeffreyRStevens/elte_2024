@@ -1,0 +1,631 @@
+---
+title: "Canine cognition<br>and the human bond"
+author: "Jeff Stevens"
+institute: "Department of Psychology<br>Center for Brain, Biology & Behavior"
+format: 
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: media/cchil_logo_white_N.png
+    slug: "asci2024"
+    slide-number: true
+    footer: "<h1><code>dogcog.unl.edu</code></h1>"
+    toc: true
+    toc-depth: 1
+---
+
+# About me
+
+## A bit about me 
+
+![](media/species_studied.png){height="550px" fig-align="center"}
+
+## Canine Cognition and Human Interaction Lab
+
+![](media/koda_choice.jpg){height="345"}
+![](media/cchil_sticker_black.png){height="340"}
+![](media/hai.png){height="345"}
+
+<!-- ::: {.fragment} -->
+<!-- <center> -->
+<!-- Intersection of canine cognition and human bond -->
+<!-- </center> -->
+<!-- ::: -->
+<!-- ## Dog and owner characteristics predict training success -->
+
+
+# Dog impulsivity
+
+## Which would you prefer?
+
+::: {.fragment}
+<center>
+<h1>
+$100 now
+
+OR
+
+$105 in one week
+</h1>
+</center>
+:::
+
+## What is impulsivity?
+
+### Multifaceted concept that includes
+
+<!-- * a tendency to act without thinking of the consequences -->
+<!-- * an inability to inhibit inappropriate behaviors -->
+<!-- * an inability to wait -->
+<!-- * a preference for risky outcomes -->
+* Response inhibition
+* Delay sensitivity
+* Risk sensitivity
+* Attention
+
+([Strickland & Johnson 2020](https://doi.org/10.1037/rev0000263))
+
+<!-- ## What is impulsivity? -->
+
+<!-- ### Related concepts -->
+
+<!-- * impulse control -->
+<!-- * self-control -->
+<!-- * inhibitory control -->
+<!-- * delay of gratification -->
+<!-- * patience -->
+<!-- * risk taking -->
+
+<!-- ## What is impulsivity? -->
+
+<!-- ### Subtypes -->
+
+<!-- * Response inhibition -->
+<!-- * Delay sensitivity -->
+<!-- * Risk sensitivity -->
+<!-- * Attention -->
+
+<!-- ([Strickland & Johnson 2020](https://doi.org/10.1037/rev0000263)) -->
+
+## Why impulsivity in dogs?
+
+:::{.fragment}
+![](media/dog_inhibition_chasing_pete-godfrey.png){.absolute top="8%" left="14%" height="300"}
+:::
+:::{.fragment}
+![](media/dog_inhibition_rolling_michael-oxendine.png){.absolute top="51%" left="0%" height="300"}
+:::
+:::{.fragment}
+![](media/dog_inhibition_water_murilo-viviani.png){.absolute top="51%" left="53%" height="300"}
+:::
+
+::: {.source}
+Photos: [Pete Godfrey](https://unsplash.com/photos/a-dog-chasing-a-bird-on-the-beach-4mJccBXMZo4), [Michael Oxendine](https://unsplash.com/photos/adult-gold-golden-retriever-lying-on-floor-t7wwffh6x8E), [Murilo Viviani](https://unsplash.com/photos/adult-white-and-black-border-collie-jumps-to-pool-rkkThs64v-A)
+:::
+
+
+## Why impulsivity in dogs?
+
+![](media/dog_patience2_tamas-pap.png){.absolute top="20%" left="10%" height="400"}
+
+:::{.fragment}
+![](media/dog_running_out_door.png){.absolute top="20%" left="60%" height="400"}
+:::
+
+::: {.source}
+Photos: [Tamas Pap](https://unsplash.com/photos/brown-and-black-long-coated-small-dog-AMRVK6UINy8), [harrydickinson](https://www.reddit.com/r/photoshopbattles/comments/16s2hh/dog_leaping_out_the_front_door_xpost_from_rpics/)
+:::
+
+
+## Why impulsivity in dogs?
+
+<!-- :::{.fragment} -->
+![](media/dog_cat_guillaume-de-germain.png){.absolute top="8%" left="25%" height="300"}
+<!-- ::: -->
+<!-- :::{.fragment} -->
+![](media/dog_balancing_jaymi_heimbuch.png){.absolute top="51%" left="10%" height="300"}
+<!-- ::: -->
+<!-- :::{.fragment} -->
+![](media/dog_surfing.jpg){.absolute top="51%" left="48%" height="300"}
+<!-- ::: -->
+
+::: {.source}
+Photos: [Guillaume de Germain](https://unsplash.com/photos/black-short-coated-dog-lying-on-green-grass-beside-brown-wooden-fence-during-daytime-EfIBVgtRZm8), [Jaymi Heimbuch](https://www.huffpost.com/entry/dog-balancing-tricks_n_5052298), [Reuters](https://www.starsinsider.com/lifestyle/398409/woofs-and-waves-ridiculously-cute-photos-of-surfing-dogs)
+:::
+
+
+## Why impulsivity in dogs?
+
+![](media/dog_impulse_control.png){.absolute top="26%" left="23%" height="300"}
+![](media/dog-impulse-control.jpg){.absolute top="20%" left="0%" height="380"}
+![](media/dog-impulse-control2.jpg){.absolute top="20%" left="77%" height="400"}
+
+## Why impulsivity in dogs?
+
+<!-- Impulsivity is primarily relevant to the dog-human bond -->
+
+<!-- :::{.fragment} -->
+![](media/detection_dog.jpg){.absolute top="8%" left="10%" height="300"}
+![](media/herding_dog_william-milliot.png){.absolute top="8%" left="50%" height="300"}
+<!-- ::: -->
+
+:::{.fragment}
+![](media/dog_park_sofia-shultz.png){.absolute top="51%" left="11%" height="300"}
+![](media/dog_baby_mohamed-nohassi.png){.absolute top="51%" left="53%" height="300"}
+:::
+
+::: {.source}
+Photos: [DHS](https://www.dhs.gov/science-and-technology/detection-canine), [William Milliot](https://unsplash.com/photos/herd-of-goat-and-black-and-white-dog-on-pature-2WS9JzdsA-Y), [Sofia Shultz](https://unsplash.com/photos/black-and-tan-german-shepherd-and-brown-and-black-german-shepherd-mix-dogs-on-brown-field-Z-lEcNOfWMI), [Mohamed Nohassi](https://unsplash.com/photos/toddler-boy-leaning-towards-a-puppy-ZvRbPin1szc)
+:::
+
+
+# Impulsivity and obedience
+
+## Impulsivity and obedience
+
+::: {.callout-tip}
+## Research Question
+
+::: {.fragment}
+::: {style="font-size: 40px"}
+Given impulsivity's importance in relation to obedience, do owners rate more impulsive dogs as less obedient?
+::::
+:::
+:::
+
+
+## Measuring impulsivity
+
+### Dog Impulsivity Assessment Scale (DIAS)
+
+::: {.fragment}
+#### Behavioral regulation, aggression, responsiveness subscales
+:::
+
+::: {.fragment}
+* I would consider my dog to be very impulsive 
+* My dog does not think before it acts
+* My dog appears to have a lot of control over how it responds
+* My dog is not very patient
+:::
+
+::: {.source}
+[Wright et al. 2012](https://doi.org/10.46867/ijcp.2011.24.02.03)
+:::
+
+
+## Measuring obedience
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Hiby et al. Obedience
+
+::: {style="font-size: 0.85em;"}
+* Toilet training
+* Chewing household objects
+* Stealing food/objects
+* Sit on command
+* Come to call
+* Leave/give-up object
+* Heel training
+:::
+
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+#### Bennett and Rohlf Disobedience
+
+::: {style="font-size: 0.85em;"}
+* My dog does what he/she is told
+* My dog will stay when asked
+* My dog has good manners
+* My dog will sit on command
+* My dog will come when called
+* My dog soils in the house
+:::
+
+:::
+:::
+::::
+
+::: {.source}
+[Hiby et al. 2004](https://doi.org/10.1017/S0962728600026683 ), [Bennett & Rohlf 2007](https://doi.org/10.1016/j.applanim.2006.03.009)
+:::
+
+
+## Study design
+
+* Surveyed 99 dog owners in six training classes
+* Complete DIAS surveys from 39 owners
+
+![](media/cgc_class.jpg){height="400" fig-align="center"}
+
+::: {.source}
+Data from [Stevens et al. 2021, _Animal Cognition_](https://doi.org/10.1007/s10071-020-01458-0)
+:::
+
+
+## Obedience and impulsivity
+
+![](media/diasbehavioralregulation_hibyobedience_blank.png){.absolute top="13%" left="0%" height="550"}
+
+::: {.fragment}
+![](media/diasbehavioralregulation_hibyobedience.png){.absolute top="13%" left="0%" height="550"}
+:::
+
+::: {.fragment}
+![](media/diasbehavioralregulation_bennettdisobedience.png){.absolute top="13%" left="55%" height="550"}
+:::
+
+::: {.source}
+Data from [Stevens et al. 2021, _Animal Cognition_](https://doi.org/10.1007/s10071-020-01458-0)
+:::
+
+
+## Obedience and other measures
+
+![](media/diasaggression_hibyobedience.png){.absolute top="13%" left="0%" height="550"}
+![](media/diasresponsiveness_hibyobedience.png){.absolute top="13%" left="55%" height="550"}
+
+::: {.source}
+Data from [Stevens et al. 2021, _Animal Cognition_](https://doi.org/10.1007/s10071-020-01458-0)
+:::
+
+
+## Obedience and other measures
+
+![](media/diasaggression_bennettdisobedience.png){.absolute top="13%" left="0%" height="550"}
+![](media/diasresponsiveness_bennettdisobedience.png){.absolute top="13%" left="55%" height="550"}
+
+::: {.source}
+Data from [Stevens et al. 2021, _Animal Cognition_](https://doi.org/10.1007/s10071-020-01458-0)
+:::
+
+
+## Impulsivity and obedience are highly related {.center}
+
+
+# Owner perceptions of impulsivity
+
+## Do owners know how impulsive their dogs are?
+
+::: {.callout-tip}
+## Research Question
+
+::: {.fragment}
+::: {style="font-size: 40px"}
+Owner perceptions of dog impulsivity will predict impulsivity in a behavioral task
+::::
+:::
+:::
+
+::: {.fragment}
+Based on and replicated [Brady et al. 2018](https://doi.org/10.1016/j.applanim.2018.01.003 )
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring owner perceptions
+
+### Dog Impulsivity Assessment Scale (DIAS)
+
+::: {.fragment}
+Behavioral regulation + aggression + responsiveness
+:::
+
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring spatial impulsivity
+
+::: {.r-stack}
+![](media/dog_spatial_apparatus.jpg){height="490" fig-align="center"}
+
+![](media/dog_spatial_setup.png){.fragment height="580" fig-align="center"}
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Study design
+
+#### Study 1
+* Recruited 117 dogs
+* 65 dogs completed testing and owners completed DIAS
+* At UNL CCHIL
+
+::: {.fragment}
+#### Study 2
+* Recruited 103 dogs
+* 49 dogs completed testing and owners completed DIAS
+* At Kenl Inn
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Perceptions vs. reality
+
+::: {.r-stack}
+![](media/dog_spatial_results_blank.png){height="550"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 498px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 498px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550"}
+
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+<!-- ## Meta-analysis -->
+
+<!-- ::: {.r-stack} -->
+<!-- ![](media/dog_spatial_impulsivity_forestplot.png){.fragment height="500" fig-align="center"} -->
+
+<!-- ::: {data-id="box1" style="background: #132E53; width: 600px; height: 450px; margin: 10px; position: absolute; top: 50px; left: 420px"} -->
+<!-- ::: -->
+
+<!-- ![](media/dog_spatial_impulsivity_forestplot.png){.fragment height="500" fig-align="center"} -->
+<!-- ::: -->
+
+<!-- ::: {.source} -->
+<!-- [Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022) -->
+<!-- ::: -->
+
+
+<!-- ## Why no replication? -->
+
+
+<!-- ::: {.source} -->
+<!-- [Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022) -->
+<!-- ::: -->
+
+
+## Owners not good at predicting dog impulsivity {.center}
+
+
+# Impulsivity as a trait
+
+## Impulsivity as a trait in domestic dogs
+
+::: {.callout-tip}
+## Research Question
+
+::: {style="font-size: 40px"}
+::: {.fragment}
+Is impulsivity a behavioral trait in dogs?
+:::
+::: {.fragment}
+* Do dogs' impulsivity levels correlate across tasks?
+* Do dogs' impulsivity levels correlate with owner perceptions?
+:::
+:::
+:::
+
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review and meta-analysis
+
+* Searched 9,900 records from Scopus, Web of Science, and PsychINFO 
+* 13 articles conducted correlations between impulsivity tasks and/or between the Dog Impulsivity Assessment Scale (DIAS) and behavioral tasks
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Tasks
+
+:::: {.columns}
+::: {.column width="50%"}
+* A-not-B Barrier
+* A-not-B Cup
+* Box
+* Buzzer
+* Cylinder
+* Delay Discounting
+* Detour Fence
+:::
+
+::: {.column width="50%"}
+* Leash
+* Middle Cup
+* Sit-Stay
+* Social Inhibition
+* Spatial Impulsivity
+* Wait-for-Treat
+:::
+::::
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Task examples
+
+![](media/anotb.png){.absolute top="10%" left="5%" height="250"}
+![](media/cylinder.png){.fragment .absolute top="50%" left="5%" height="250"}
+![](media/detour-task.png){.fragment .absolute top="10%" left="50%" height="250"}
+
+![](media/dog_patience1_samuel-pollard.png){.fragment .absolute top="50%" left="50%" height="250"}
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review: task pairs
+
+![](media/systmatic_review_tasks.png){.fragment height="500" fig-align="center"}
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review: DIAS and tasks
+
+![](media/systematic_review_dias.png){.fragment height="250" fig-align="center"}
+
+::: {.source}
+[Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+<!-- ## Meta-analysis: A-not-B and cylinder tasks -->
+
+<!-- ![](media/anotb-cylinder-forestplot.png){.fragment height="500" fig-align="center"} -->
+
+<!-- ::: {.source} -->
+<!-- [Barela et al. in press, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352) -->
+<!-- ::: -->
+
+
+## Impulsivity does not seem to be a behavioral trait {.center}
+
+
+# Big team science
+
+## ManyDogs Project
+
+::: {.r-stack}
+![[`manydogsproject.github.io`](https://manydogsproject.github.io)](media/manydogs_banner.jpg){width="800"}
+
+![](media/mdintro_labs.png){.fragment width="850"}
+:::
+
+::: {.source}
+[ManyDogs et al. 2023a, _Comparative Cognition & Behavior Reviews_](https://doi.org/10.3819/CCBR.2023.180004)
+:::
+
+
+## ManyDogs 1
+
+#### Human point following
+
+::: {.r-stack}
+![](media/dog_point.png){height="500"}
+
+![](media/dog_pointing.png){.fragment height="500"}
+:::
+
+::: {.source}
+[ManyDogs et al. 2023b, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## ManyDogs 2
+
+#### Overimitation
+
+![](media/dog_overimitation.jpg){height="450" fig-align="center"}
+
+
+
+## ManyManys
+
+![](media/manymanys_logo.png){height="550" fig-align="center"}
+
+::: {.fragment}
+![](media/manydogs_banner.jpg){.absolute top="15%" left="-7%" height="100"}
+![](media/manybirds_logo.png){.absolute top="42%" left="-7%" height="150"}
+![](media/manyzoos_logo.png){.absolute top="75%" left="-7%" height="100"}
+![](media/manyfishes_logo.png){.absolute top="12%" left="85%" height="150"}
+![](media/manygoats_logo.jpg){.absolute top="42%" left="85%" height="150"}
+![](media/manyprimates_logo.png){.absolute top="75%" left="85%" height="100"}
+:::
+
+::: {.source}
+[Alessandroni et al. 2024, _Comparative Cognition & Behavior Reviews_](https://doi.org/10.31234/osf.io/rynvu)
+:::
+
+
+## ManyManys 1
+
+#### Reversal learning
+
+![](media/dog_touchscreen.png){height="500" fig-align="center"}
+
+
+## Big team science can improve our work {.center}
+
+
+# Conclusion
+
+## Take home message
+
+::: {.incremental}
+* Measuring behavioral traits
+
+* Measuring owner perceptions
+
+* Leveraging big team science
+:::
+
+::: {.fragment}
+### Current directions
+
+Connect impulsivity and obedience to hormones and genetics
+:::
+
+
+## Contact
+
+```{r}
+library(icons)
+```
+
+<!-- {{< fa envelope >}} `jstevens5@unl.edu` -->
+
+`r icon_style(fontawesome("envelope", style = "solid"), fill = "white")` `jstevens5@unl.edu`
+
+<!-- {{< fa brands mastodon >}} `@JeffreyRStevens@fediscience.org` -->
+
+::: {style="font-size: 0.5em"}
+<br>
+:::
+
+**Canine Cognition and Human Interaction Lab**
+
+<!-- {{< fa home >}} `dogcog.unl.edu` -->
+
+<!-- {{< fa brands twitter >}} `@UNL_CCHIL` -->
+
+<!-- {{< fa brands instagram >}} `UNL_CCHIL` -->
+
+<!-- {{< fa brands facebook >}} `UNL.CCHIL` -->
+
+`r icon_style(fontawesome("instagram", style = "brands"), fill = "white")` `UNL_CCHIL`
+
+`r icon_style(fontawesome("facebook", style = "brands"), fill = "white")` `UNL.CCHIL`
+
+![](media/koda_lick.jpg){.absolute top="45%" left="45%" height="300"}
+
+::: {style="font-size: 0.5em"}
+<br>
+:::
+

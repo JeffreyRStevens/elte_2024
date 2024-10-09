@@ -1,0 +1,373 @@
+---
+title: "Do dogs follow Weber's Law?"
+subtitle: "The role of ratio and difference in quantity preference"
+author: "<b>Jeff Stevens</b>, Hunter DeBoer, Hannah Fitzpatrick, <br> Anwyn Gatesy-Davis, & London Wolff"
+date: ""
+institute: "Canine Cognition and Human Interaction Lab<br>University of Nebraska-Lincoln<br><code>dogcog.unl.edu</code>"
+format: 
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: media/cchil_logo_white_N.png
+    slug: "asci2024"
+    slide-number: true
+    footer: "<h2><code>jeffreyrstevens.quarto.pub/csc_2024</code></h2>"
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+```
+
+
+# Canine quantities
+
+##
+
+![](media/mathew-coulton-zxqaAkkayP8-unsplash.jpg){height="550px" fig-align="center"}
+
+::: {.source}
+Photo: [Mathew Coulton](https://unsplash.com/photos/brown-peanuts-in-blue-plastic-bowl-zxqaAkkayP8)
+:::
+
+
+## Food preference task
+
+::: {.r-stack}
+![](media/preference_stim.jpg){fig-align="center" height="450"}
+
+![](media/previous_preference_pair.png){.fragment fig-align="center" height="550"}
+:::
+
+::: {.source}
+[Ward & Smuts 2007](https://doi.org/10.1007/s10071-006-0042-7)
+:::
+
+
+## What drives preference? 
+
+::: {.fragment .fade-in}
+### Weber's Law
+
+Detecting differences in stimuli depends on relative magnitude
+:::
+
+::: {.fragment}
+![](media/weber1_white.png){.absolute height=170 top=350 left=-80}
+:::
+
+::: {.fragment}
+
+![](media/weber2_white.png){.absolute height=300 top=280 left=400}
+:::
+
+
+## Numerical ratio
+
+### Key signature of Weber's law
+
+Ratio = small / large
+
+:::{.r-stack}
+:::{.fragment}
+```{r}
+ratio_pairs <- tibble(Small = c(1, 2, 1, 2), Large = c(2, 4, 3, 6), Ratio = Small / Large)
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2)
+```
+:::
+
+:::{.fragment}
+```{r}
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Ratio == 0.5,
+             palette = "#425875") |> 
+  data_color(rows = Ratio == 1/3,
+             palette = "#718298")
+```
+:::
+:::
+
+
+## Numerical difference/distance/disparity
+
+### Not related to Weber's law
+
+Difference = large − small
+
+:::{.r-stack}
+:::{.fragment}
+```{r}
+difference_pairs <- tibble(Small = c(1, 2, 1, 2), Large = c(2, 4, 3, 6), Difference = Large - Small)
+difference_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center")
+```
+:::
+
+:::{.fragment}
+```{r}
+difference_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  data_color(rows = Difference == 2,
+             palette = "#425875") |> 
+  data_color(rows = Difference == 1,
+             palette = "#718298") |> 
+  data_color(rows = Difference == 4,
+             palette = "steelblue4")
+
+```
+:::
+:::
+
+
+## Previous work on difference and ratio
+
+
+:::{.fragment}
+| Study                                          | Ratio effects | Difference effects |
+|-------------------------------------|:-------------------:|:------------------------:|
+| Ward &amp; Smuts 2007                          |         Yes         |            Yes           |
+| Baker et al. 2012                              |         Yes         |        Not tested        |
+| Miletto Petrazzini &amp; Wynn 2016 |         Yes         |        Not tested        |
+| Aulet et al. 2019 |         Yes         |        Not tested        |
+| Rivas-Blanco et al. 2020                       |         Yes         |        Not tested        |
+:::
+
+
+## Difference and ratio are confounded
+
+```{r diff-ratio-plot}
+#| out-height: 550
+#| fig-align: "center"
+library(tidyverse)
+first_pairs <- data.frame(small = 1:10, large = 1:10)
+pairs <- expand(first_pairs, small, large) |> 
+  filter(small < large) |> 
+  mutate(diff = large - small,
+         ratio = small / large)
+pairs |> 
+  ggplot(aes(x = diff, y = ratio)) +
+  geom_point(shape = 1) +
+  labs(x = "Difference", y = "Ratio", title = "All pairs 1-10") +
+  theme_classic() +
+  theme(text = element_text(family = "Arial", size = 20),
+    aspect.ratio = 0.8)
+```
+
+## Research question
+
+What are the relative contributions of difference and ratio in determining dog quantity preferences?
+
+![](media/dog_number_study_wide.jpg){fig-align="center" height="450"}
+
+
+# Methods
+
+## Subjects
+
+* **Recruited 13 dogs from local dog daycare facility**
+    - [Six dogs were excluded due to disinterest or inability to complete sessions]{style="font-size:0.75em"}
+* **Seven dogs completed all sessions**
+    - [2:5 male:female (all spayed/neutered)]{style="font-size:0.75em"}
+    - [Two goldendoodles, one golden retriever, one collie, three mixes]{style="font-size:0.75em"}
+    - [1-3 years old]{style="font-size:0.75em"}
+    - [12-78 lbs]{style="font-size:0.75em"}
+
+
+## Set-up
+
+![](media/number_setup.png)
+
+
+## Procedures
+
+* Sessions consisted of warm-up trials, experimental trials, and jackpot trials
+* Ten sessions per subject
+
+
+## Numerical pairs
+
+::: {style="font-size: 70%;"}
+
+:::{.r-stack}
+<!-- :::{.fragment} -->
+```{r}
+numerical_pairs <- tibble(Small = c(1, 2, 3, 1, 2, 4, 2, 4, 8), Large = c(3, 6, 9, 2, 4, 8, 3, 6, 12), Difference = Large - Small, Ratio = Small / Large)
+numerical_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 20, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2)
+```
+<!-- ::: -->
+
+:::{.fragment}
+```{r}
+numerical_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 20, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Ratio == 1/3,
+             palette = "#425875") |> 
+  data_color(rows = Ratio == 0.5,
+             palette = "#718298") |> 
+  data_color(rows = Ratio == 2/3,
+             palette = "steelblue4")
+
+```
+:::
+:::
+:::
+
+
+# Results
+
+## Difference or ratio
+
+![](media/hypothesis1.1.png){fig-align="center" height="550"}
+
+
+## Difference and ratio
+
+:::{.r-stack}
+```{r}
+regression_table <- data.frame(Model = c("choice ~ (1 | dog_id)", "choice ~ diff + (1 | dog_id)", "choice ~ ratio + (1 | dog_id)", "choice ~ diff + ratio + (1 | dog_id)", "choice ~ diff * ratio + (1 | dog_id)"), BF = c(NA, 2531.3, 15.9, 481.4, 19.8))
+regression_table |> 
+  gt() |> 
+  tab_options(table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |> 
+  gt::fmt_number(columns = BF, decimals = 1) |> 
+  cols_width(Model ~ pct(80), BF ~ pct(25)) |> 
+  sub_missing(missing_text = "") #|> 
+  # opt_interactive(use_highlight = TRUE, use_pagination = FALSE, use_pagination_info = FALSE, use_sorting = FALSE, use_resizers = TRUE, use_compact_mode = TRUE, pagination_type = "simple")
+```
+
+:::{.fragment}
+```{r}
+regression_table |> 
+  gt() |> 
+  tab_options(table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |> 
+  gt::fmt_number(columns = BF, decimals = 1) |> 
+  cols_width(Model ~ pct(80), BF ~ pct(25)) |> 
+  sub_missing(missing_text = "") |> 
+  data_color(rows = BF > 1000,
+             palette = "#718298")
+```
+
+:::
+:::
+
+
+# Conclusions
+
+## Summary
+
+* Both difference and ratio predict numerical preference when analyzed separately
+
+* But only difference predicts when analyzed together
+
+
+## Previous preference work
+
+:::{.r-stack}
+![](media/previous_preference_ratio.png){fig-align="center" height="550"}
+
+![](media/previous_preference_ratio_diff.png){.fragment fig-align="center" height="550"}
+:::
+
+::: {.source}
+[Ward & Smuts 2007](https://doi.org/10.1007/s10071-006-0042-7)
+:::
+
+
+## Previous discrimination work
+
+![](media/previous_discrim_ratio_diff.png){fig-align="center" height="550"}
+
+::: {.source}
+[Rivas-Blanco et al. 2020](https://doi.org/10.3389/fpsyg.2020.573317)
+:::
+
+## Implications
+
+* Revisit ubiquity of Weber's Law
+
+* Explore other properties of Weber's Law
+
+* Include difference in models and design studies to test difference effects 
+
+* Consider differences between discrimination and preference tasks
+
+
+## Thank you!
+
+![Hunter DeBoer](media/hunter_deboer.jpg){.absolute top=80 left=-50 width="200"}
+![Hannah Fitzpatrick](media/hannah_fitzpatrick.jpg){.absolute top=80 left=250 width="200"}
+
+![](media/anwyn_gatesy-davis.jpg){.absolute top=80 left=550 width="200" height="200"}
+
+![](media/london_wolff.jpg){.absolute top=80 left=850 width="200" height="200"}
+
+[Hunter <br>DeBoer]{.absolute top=300 left=-50}
+[Hannah <br>Fitzpatrick]{.absolute top=300 left=250}
+[Anwyn <br>Gatesy-Davis]{.absolute top=300 left=550}
+[London <br>Wolff]{.absolute top=300 left=850}
+
+:::{.fragment}
+![](media/nsf_logo.jpg){.absolute top=425 left=100 width="200" height="200"}
+:::
+
+::: {.fragment}
+[`jstevens5@unl.edu`]{.absolute top=450 left=650}
+[`dogcog.unl.edu`]{.absolute top=500 left=650}
+[`@unl_cchil`]{.absolute top=550 left=650}
+[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=455 left=600}
+[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=505 left=598}
+[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=555 left=603}
+:::
+
+
+## Difference and ratio
+
+![](media/hypothesis1.2.png){fig-align="center" height="550"}
+
+
+## Discrimination vs. preference
+
+### Cognitive Phenotypes
+
+![](media/cognitive_phenotypes.jpg)
+
+::: {.source}
+[Mendelson et al. 2016](https://doi.org/10.1016/j.tree.2016.08.008)
+:::
+
+
+## Discrimination vs. preference
+
+![](media/discrim_stim.png){.absolute top=80 left=0 width="500"}
+
+![](media/preference_stim.jpg){.absolute top=80 left=600 width="500"}
+
+::: {.fragment}
+::: {.absolute top=390}
+|                      | **Discrimination**   | **Preference**        |
+|-------------------|---------------------|-----------------------|
+| **Stimuli**              | Arbitrary        | Food rewards      |
+| **Rewards**       | All or none      | Presented amounts |
+| **Contingencies** | Correct response | Chosen amounts            |
+:::
+:::
+
+
+

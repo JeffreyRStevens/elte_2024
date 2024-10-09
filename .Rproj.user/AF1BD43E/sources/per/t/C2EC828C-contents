@@ -1,0 +1,588 @@
+---
+title: "Do you see what I see?"
+subtitle: "Diverging effects in dog cognition studies"
+author: "Jeff Stevens"
+date: ""
+institute: "Canine Cognition and Human Interaction Lab<br>University of Nebraska-Lincoln<br><code>dogcog.unl.edu</code>"
+format: 
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: media/cchil_logo_white_N.png
+    slug: "asci2024"
+    slide-number: true
+    footer: "<h2><code>jeffreyrstevens.quarto.pub/elte_2024</code></h2>"
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+```
+
+
+# Perceptions of Impulsivity
+
+## Owner perceptions of dog impulsivity
+
+::: {.callout-tip}
+## Research Question
+
+::: {.fragment}
+::: {style="font-size: 40px"}
+Do owner perceptions of dog impulsivity predict impulsivity in a behavioral task?
+::::
+:::
+:::
+
+::: {.fragment}
+Based on and replicated [Brady et al. 2018](https://doi.org/10.1016/j.applanim.2018.01.003 )
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring owner perceptions
+
+### Dog Impulsivity Assessment Scale (DIAS)
+
+::: {.fragment}
+Behavioral regulation + aggression + responsiveness
+:::
+
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring spatial impulsivity
+
+::: {.r-stack}
+![](media/dog_spatial_apparatus.jpg){height="490" fig-align="center"}
+
+![](media/dog_spatial_setup.png){.fragment height="580" fig-align="center"}
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Study design
+
+#### Study 1
+* Recruited 117 dogs
+* 65 dogs completed testing and owners completed DIAS
+* At UNL CCHIL
+
+::: {.fragment}
+#### Study 2
+* Recruited 103 dogs
+* 49 dogs completed testing and owners completed DIAS
+* At dog daycare
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Perceptions vs. reality
+
+::: {.r-stack}
+![](media/dog_spatial_results_blank.png){height="550"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 498px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 498px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550"}
+
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Implications
+
+* Owners not good at predicting dog impulsivity
+
+
+# Impulsivity as a trait
+
+## Impulsivity as a trait in dogs
+
+::: {.callout-tip}
+## Research Question
+
+::: {style="font-size: 40px"}
+::: {.fragment}
+Is impulsivity a behavioral trait in dogs?
+:::
+::: {.fragment}
+* Do dogs' impulsivity levels correlate across tasks?
+* Do dogs' impulsivity levels correlate with owner perceptions?
+:::
+:::
+:::
+
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review and meta-analysis
+
+* Searched 9,900 records from Scopus, Web of Science, and PsychINFO 
+* 13 articles conducted correlations between impulsivity tasks and/or between the Dog Impulsivity Assessment Scale (DIAS) and behavioral tasks
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Tasks
+
+:::: {.columns}
+::: {.column width="50%"}
+* A-not-B Barrier
+* A-not-B Cup
+* Box
+* Buzzer
+* Cylinder
+* Delay Discounting
+* Detour Fence
+:::
+
+::: {.column width="50%"}
+* Leash
+* Middle Cup
+* Sit-Stay
+* Social Inhibition
+* Spatial Impulsivity
+* Wait-for-Treat
+:::
+::::
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Task examples
+
+![](media/anotb.png){.absolute top="10%" left="5%" height="250"}
+![](media/cylinder.png){.fragment .absolute top="50%" left="5%" height="250"}
+![](media/detour-task.png){.fragment .absolute top="10%" left="50%" height="250"}
+
+![](media/dog_patience1_samuel-pollard.png){.fragment .absolute top="50%" left="50%" height="250"}
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review: task pairs
+
+![](media/systmatic_review_tasks.png){.fragment height="500" fig-align="center"}
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Systematic review: DIAS and tasks
+
+![](media/systematic_review_dias.png){.fragment height="250" fig-align="center"}
+
+::: {.source}
+[Barela et al. 2024, _Journal of Comparative Psychology_](https://doi.org/10.1037/com0000352)
+:::
+
+
+## Implications
+
+* Impulsivity does not seem to be a behavioral trait
+
+
+
+
+# Quantity preference
+
+
+## Dog quantity preferences
+
+::: {.callout-tip}
+## Research Question
+
+::: {style="font-size: 40px"}
+::: {.fragment}
+What are the relative contributions of difference and ratio in determining dog quantity preferences?
+:::
+:::
+:::
+
+
+## Food preference task
+
+::: {.r-stack}
+![](media/preference_stim.jpg){fig-align="center" height="450"}
+
+![](media/previous_preference_pair.png){.fragment fig-align="center" height="550"}
+:::
+
+::: {.source}
+[Ward & Smuts 2007](https://doi.org/10.1007/s10071-006-0042-7)
+:::
+
+
+## What drives preference? 
+
+::: {.fragment .fade-in}
+### Weber's Law
+
+Detecting differences in stimuli depends on relative magnitude
+:::
+
+::: {.fragment}
+![](media/weber1_white.png){.absolute height=170 top=350 left=-80}
+:::
+
+::: {.fragment}
+
+![](media/weber2_white.png){.absolute height=300 top=280 left=400}
+:::
+
+
+## Numerical ratio
+
+### Key signature of Weber's law
+
+Ratio = small / large
+
+:::{.r-stack}
+:::{.fragment}
+```{r}
+ratio_pairs <- tibble(Small = c(1, 2, 1, 2), Large = c(2, 4, 3, 6), Ratio = Small / Large)
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2)
+```
+:::
+
+:::{.fragment}
+```{r}
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Ratio == 0.5,
+             palette = "#425875") |> 
+  data_color(rows = Ratio == 1/3,
+             palette = "#718298")
+```
+:::
+:::
+
+
+## Numerical difference/distance/disparity
+
+### Not related to Weber's law
+
+Difference = large − small
+
+:::{.r-stack}
+:::{.fragment}
+```{r}
+difference_pairs <- tibble(Small = c(1, 2, 1, 2), Large = c(2, 4, 3, 6), Difference = Large - Small)
+difference_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center")
+```
+:::
+
+:::{.fragment}
+```{r}
+difference_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  data_color(rows = Difference == 2,
+             palette = "#425875") |> 
+  data_color(rows = Difference == 1,
+             palette = "#718298") |> 
+  data_color(rows = Difference == 4,
+             palette = "steelblue4")
+
+```
+:::
+:::
+
+
+## Previous work on difference and ratio
+
+
+:::{.fragment}
+| Study                                          | Ratio effects | Difference effects |
+|-------------------------------------|:-------------------:|:------------------------:|
+| Ward &amp; Smuts 2007                          |         Yes         |            Yes           |
+| Baker et al. 2012                              |         Yes         |        Not tested        |
+| Miletto Petrazzini &amp; Wynn 2016 |         Yes         |        Not tested        |
+| Aulet et al. 2019 |         Yes         |        Not tested        |
+| Rivas-Blanco et al. 2020                       |         Yes         |        Not tested        |
+:::
+
+
+## Difference and ratio are confounded
+
+```{r diff-ratio-plot}
+#| out-height: 550
+#| fig-align: "center"
+library(tidyverse)
+first_pairs <- data.frame(small = 1:10, large = 1:10)
+pairs <- expand(first_pairs, small, large) |> 
+  filter(small < large) |> 
+  mutate(diff = large - small,
+         ratio = small / large)
+pairs |> 
+  ggplot(aes(x = diff, y = ratio)) +
+  geom_point(shape = 1) +
+  labs(x = "Difference", y = "Ratio", title = "All pairs 1-10") +
+  theme_classic() +
+  theme(text = element_text(family = "Arial", size = 20),
+    aspect.ratio = 0.8)
+```
+
+<!-- ## Research question -->
+
+<!-- What are the relative contributions of difference and ratio in determining dog quantity preferences? -->
+
+<!-- ![](media/dog_number_study_wide.jpg){fig-align="center" height="450"} -->
+
+
+## Subjects
+
+* **Recruited 13 dogs from local dog daycare facility**
+    - [Six dogs were excluded due to disinterest or inability to complete sessions]{style="font-size:0.75em"}
+* **Seven dogs completed all sessions**
+    - [2:5 male:female (all spayed/neutered)]{style="font-size:0.75em"}
+    - [Two goldendoodles, one golden retriever, one collie, three mixes]{style="font-size:0.75em"}
+    - [1-3 years old]{style="font-size:0.75em"}
+    - [12-78 lbs]{style="font-size:0.75em"}
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Set-up
+
+![](media/number_setup.png)
+
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Procedures
+
+* Sessions consisted of warm-up trials, experimental trials, and jackpot trials
+* Ten sessions per subject
+
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Numerical pairs
+
+::: {style="font-size: 70%;"}
+
+:::{.r-stack}
+<!-- :::{.fragment} -->
+```{r}
+numerical_pairs <- tibble(Small = c(1, 2, 3, 1, 2, 4, 2, 4, 8), Large = c(3, 6, 9, 2, 4, 8, 3, 6, 12), Difference = Large - Small, Ratio = Small / Large)
+numerical_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 20, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2)
+```
+<!-- ::: -->
+
+:::{.fragment}
+```{r}
+numerical_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 20, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Ratio == 1/3,
+             palette = "#425875") |> 
+  data_color(rows = Ratio == 0.5,
+             palette = "#718298") |> 
+  data_color(rows = Ratio == 2/3,
+             palette = "steelblue4")
+
+```
+:::
+:::
+:::
+
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Difference or ratio
+
+![](media/hypothesis1.1.png){fig-align="center" height="550"}
+
+
+## Difference and ratio
+
+:::{.r-stack}
+```{r}
+regression_table <- data.frame(Model = c("choice ~ (1 | dog_id)", "choice ~ diff + (1 | dog_id)", "choice ~ ratio + (1 | dog_id)", "choice ~ diff + ratio + (1 | dog_id)", "choice ~ diff * ratio + (1 | dog_id)"), BF = c(NA, 2531.3, 15.9, 481.4, 19.8))
+regression_table |> 
+  gt() |> 
+  tab_options(table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |> 
+  gt::fmt_number(columns = BF, decimals = 1) |> 
+  cols_width(Model ~ pct(80), BF ~ pct(25)) |> 
+  sub_missing(missing_text = "") #|> 
+  # opt_interactive(use_highlight = TRUE, use_pagination = FALSE, use_pagination_info = FALSE, use_sorting = FALSE, use_resizers = TRUE, use_compact_mode = TRUE, pagination_type = "simple")
+```
+
+:::{.fragment}
+```{r}
+regression_table |> 
+  gt() |> 
+  tab_options(table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |> 
+  gt::fmt_number(columns = BF, decimals = 1) |> 
+  cols_width(Model ~ pct(80), BF ~ pct(25)) |> 
+  sub_missing(missing_text = "") |> 
+  data_color(rows = BF > 1000,
+             palette = "#718298")
+```
+
+:::
+:::
+
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Summary
+
+* Both difference and ratio predict numerical preference when analyzed separately
+
+* But only difference predicts when analyzed together
+
+
+::: {.source}
+[deBoer et al. under review](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Previous preference work
+
+:::{.r-stack}
+![](media/previous_preference_ratio.png){fig-align="center" height="550"}
+
+![](media/previous_preference_ratio_diff.png){.fragment fig-align="center" height="550"}
+:::
+
+::: {.source}
+[Ward & Smuts 2007](https://doi.org/10.1007/s10071-006-0042-7)
+:::
+
+
+## Previous discrimination work
+
+![](media/previous_discrim_ratio_diff.png){fig-align="center" height="550"}
+
+::: {.source}
+[Rivas-Blanco et al. 2020](https://doi.org/10.3389/fpsyg.2020.573317)
+:::
+
+
+## Implications
+
+* Revisit ubiquity of Weber's Law
+
+* Explore other properties of Weber's Law
+
+* Include difference in models and design studies to test difference effects 
+
+* Consider differences between discrimination and preference tasks
+
+
+# Conclusions
+
+## Summary
+
+### Spatial Impulsivity
+* Two subsequent studies failed to replicate original study
+* Meta-analysis failed to find effect
+
+## Summary
+
+### Impulsivity as a Trait
+* Pretty consistent lack of task correlations
+* Mixed correlations with DIAS
+
+## Summary
+
+### Quantity Preference
+* Replicated ratio effect found by others
+* But effect goes away when accounting for difference
+* Same finding when applied to two other data sets
+
+## What does it all mean?
+
+
+
+
+## Thank you!
+
+![Jessica Barela](media/jessica_barela.jpg){.absolute top=80 left=-50 width="200"}
+![Hunter DeBoer](media/hunter_deboer.jpg){.absolute top=80 left=175 width="200"}
+![Hannah Fitzpatrick](media/hannah_fitzpatrick.jpg){.absolute top=80 left=400 width="200"}
+![Anwyn Gatesy-Davis](media/anwyn_gatesy-davis.jpg){.absolute top=80 left=625 width="200" height="200"}
+![London Wolff](media/london_wolff.jpg){.absolute top=80 left=875  width="200" height="200"}
+
+[Jessica <br>Barela]{.absolute top=300 left=-50}
+[Hunter <br>DeBoer]{.absolute top=300 left=175}
+[Hannah <br>Fitzpatrick]{.absolute top=300 left=400}
+[Anwyn <br>Gatesy-Davis]{.absolute top=300 left=625}
+[London <br>Wolff]{.absolute top=300 left=875}
+
+:::{.fragment}
+![](media/nsf_logo.jpg){.absolute top=425 left=100 width="200" height="200"}
+:::
+
+::: {.fragment}
+[`jstevens5@unl.edu`]{.absolute top=450 left=650}
+[`dogcog.unl.edu`]{.absolute top=500 left=650}
+[`@unl_cchil`]{.absolute top=550 left=650}
+[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=455 left=600}
+[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=505 left=598}
+[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=555 left=603}
+:::
